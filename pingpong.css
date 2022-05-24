@@ -1,0 +1,54 @@
+.bg{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: solid black 3px;
+}
+.raquette{
+    width: 120px;
+    height: 30px;
+    background-color: brown;
+    align-items: baseline;
+    margin-top: 470px;
+    margin-left: 0;
+    position: absolute;
+    margin-right: 100px;
+    
+}
+button{
+    display: none;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    width: 120px;
+    height: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    border-radius: 50px;
+    /* margin-bottom: 450px; */
+}
+.score{
+    margin-top: 10px;
+    height: 100px;
+    width: 500px;
+    background-color: rgb(255, 128, 128);
+    border: solid black 3px;
+}
+h1{
+    display: inline-block;
+    margin-left: 30px;
+}
+h2{
+    display: inline-block;
+    margin-left:340px;
+}
